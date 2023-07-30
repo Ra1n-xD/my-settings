@@ -11,10 +11,11 @@
   ],
   "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"],
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[scss]": {
-    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
   },
   "vscodeGoogleTranslate.preferredLanguage": "English",
   "liveServer.settings.donotShowInfoMsg": true,
@@ -23,8 +24,15 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[css]": {
-    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
   },
   "editor.detectIndentation": false,
   "jshint.options": {
@@ -34,7 +42,7 @@
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
   "workbench.sideBar.location": "right",
-  "editor.codeActionsOnSave": {},
+
   "jshint.config": "",
   "editor.unicodeHighlight.nonBasicASCII": false,
   "editor.fontFamily": "JetBrains Mono",
@@ -42,9 +50,23 @@
   // "editor.letterSpacing": 0,
   // "terminal.integrated.fontFamily": "Consolas, 'Courier New', monospace",
   "terminal.integrated.fontSize": 12,
-  "workbench.colorTheme": "Monokai Pro",
   "quokka.automaticRestart": false,
   "editor.minimap.enabled": false,
-  "editor.renderWhitespace": "none"
+  "editor.renderWhitespace": "none",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "workbench.colorTheme": "Monokai",
+  "editor.semanticTokenColorCustomizations": {},
+  "editor.tokenColorCustomizations": {},
+  "editor.tabSize": 2,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "javascript": true
+  },
+  "editor.codeActionsOnSave": {}
   // "terminal.integrated.lineHeight": 0,
 }
